@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <ImageButton
+        android:id="@+id/bl_drawer"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:contentDescription="@string/sys"
+        android:paddingBottom="3dp"
+        android:paddingLeft="6dp"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/bl_ibtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:contentDescription="@string/sys"
+        android:paddingBottom="3dp"
+        android:paddingRight="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_sync" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/bl_ibtn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="3dp"
+        android:text="@string/allcontent"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+    <ImageButton
+        android:id="@+id/set_btn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:contentDescription="@string/setting"
+        android:paddingBottom="4dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_setting" >
+    </ImageButton>
+
+    <ListView
+        android:id="@+id/blv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/set_btn"
+        android:layout_below="@id/bl_ibtn"
+        android:cacheColorHint="#FFF4F4F4"
+        android:divider="@color/gray"
+        android:dividerHeight="1dip"
+        android:fadingEdge="horizontal" />
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    	<item
+    	android:id="@+id/secure"
+	    android:showAsAction="always|withText"
+		android:icon="@drawable/seek">
+	</item>
+    
+    
+	<item
+	    android:id="@+id/MenuSetting"
+	    android:showAsAction="always|withText"
+		android:icon="@drawable/setting2"
+		>
+		
+	    <menu>
+			<!-- 定义一组允许复选的菜单项 -->
+			<group>
+				<!-- 定义3个菜单项 -->
+				<item
+					android:id="@+id/wordAdd"
+					android:title="字体变大"
+					android:icon="@drawable/wordadd"
+					/>
+				<item
+					android:id="@+id/wordMinus"
+					android:title="字体变小"
+					android:icon="@drawable/wordminus"
+					/>
+				<item
+					android:id="@+id/lightSetting"
+					android:title="亮度调节"
+					/>						
+			</group>
+		</menu>
+	</item>
+	<!-- 定义一个普通菜单项 -->
+	<item android:id="@+id/plain_item"
+	    android:showAsAction="always|withText"
+	    android:icon="@drawable/bookmark"
+		android:title="">
+	</item>
+	<item
+	    android:showAsAction="always"
+		android:icon="@drawable/refresh4">
+		<menu>
+			<!-- 定义一组允许复选的菜单项 -->
+			<group>
+				<!-- 定义3个菜单项 -->
+				<item
+					android:id="@+id/red_font"
+					/>
+				<item
+					android:id="@+id/green_font"
+					/>
+				<item
+					android:id="@+id/blue_font"
+					/>						
+			</group>
+		</menu>
+	</item>		
+</menu>

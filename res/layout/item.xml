@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/bookname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="13dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bookname"
+        android:layout_below="@id/bookname"
+        android:paddingLeft="13dp"
+        android:paddingTop="13dp"
+        android:textColor="@color/black"
+        android:textSize="17sp" >
+    </TextView>
+    <TextView
+        android:id="@+id/bookChapname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bookname"
+        android:layout_below="@id/author"
+        android:paddingLeft="13dp"
+        android:paddingTop="13dp"
+        android:textColor="@color/black"
+        android:textSize="17sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/bf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bookname"
+        android:layout_below="@id/bookChapname"
+        android:paddingBottom="7dp"
+        android:paddingLeft="13dp"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

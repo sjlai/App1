@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name"></string>
+    <string name="forgetpsw">"忘记密码？"</string>
+    <string name="changepsw">"修改密码                              "</string>
+    <string name="oldpsw">"旧密码"</string>
+    <string name="newpsw">"新密码"</string>
+    <string name="surepsw">"确认密码"</string>
+    <string name="regist">浏览进入</string>
+    <string name="sys">同步</string>
+    <string name="allcontent">李幺傻书迷会</string>
+    <string name="setting">设置</string>
+    <string name="icons">书迷会</string>
+    <string name="whatsnew_page01">"微信\n超过2亿人使用的手机应用"</string>
+    <string name="whatsnew_page02">"按住就能说话\n聊天是如此简单轻松"</string>
+    <string name="whatsnew_page03">"透过视频聊天\n你甚至可以和朋友们\n面对面沟通"</string>
+    <string name="whatsnew_page04">"摇一摇手机\n或者看看附近的人\n认识更多的朋友"</string>
+    <string name="whatsnew_start_btn">"开启书香之旅"</string>
+    <string name="back">返回按钮</string>
+    <string name="userId">当前用户</string>
+    <string name="jt">向右箭头</string>
+    <string name="denglu">登录</string>
+    <string name="zhanghao">账号</string>
+    <string name="mima">密码</string>
+    <string name="drawbutton">popdrawerbutton</string>
+    <string name="gridviewpic">GridView图片</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="wordadd">字体变大</string>
+    <string name="wordmnius">字体变小</string>
+    <string name="screenlight">屏幕变量</string>
+    <string name="screendark">屏幕变暗</string>
+    
+    
+
+</resources>

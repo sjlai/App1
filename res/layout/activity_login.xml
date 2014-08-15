@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/textview_sx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/icons"
+        android:textColor="@color/bluelite"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_sx"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:hint="@string/zhanghao"
+        android:inputType="text"
+        android:textColor="@color/gray" />
+
+    <EditText
+        android:id="@+id/userpassword"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/mima"
+        android:inputType="textPassword"
+        android:paddingTop="20dp"
+        android:textColor="@color/gray" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/userpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_button"
+        android:text="@string/denglu"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/forgetpsw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/loginbtn"
+        android:layout_below="@id/loginbtn"
+        android:layout_marginTop="15dp"
+        android:linksClickable="true"
+        android:text="@string/forgetpsw"
+        android:textColor="#a2b49c"
+        android:textSize="15sp" />
+        <TextView
+        android:id="@+id/changepsw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/forgetpsw"
+        android:layout_below="@id/loginbtn"
+        android:layout_marginTop="15dp"
+        android:linksClickable="true"
+        android:text="@string/changepsw"
+        android:textColor="#a2b49c"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/regist"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/regist_button"
+        android:text="@string/regist"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>
